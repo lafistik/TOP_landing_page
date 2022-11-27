@@ -12,3 +12,24 @@ body {
     font-family: 'Roboto', sans-serif;;
     font-weight: 400;
 }
+
+section {
+    width: 100vw;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero-img {
+    width: 450px;
+}
+
+.card-img {
+    width: 150px;
+}

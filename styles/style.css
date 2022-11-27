@@ -124,7 +124,7 @@ section {
 
 /* FEATURES SECTION */
 
-.features {
+.features, .cta {
     padding: 60px 0;
 }
 
@@ -178,4 +178,33 @@ section {
     font-weight: 600;
     font-size: 22px;
     margin-top: 10px;
+}
+
+/* CTA Section */
+
+.cta .container {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 60px 120px;
+    border-radius: 12px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 2px;
+}
+
+.cta-btn {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 3px solid #F9FAF8;
 }

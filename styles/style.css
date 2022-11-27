@@ -153,3 +153,29 @@ section {
     font-size: 18px;
     margin-top: 8px;
 }
+
+/* TESTIMONIAL SECTION */
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 120px 0;
+}
+
+.testimonial .container {
+    width: 900px;
+}
+
+.testimonial-text {
+    font-size: 32px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    line-height: 1.3;
+}
+
+.testimonial-person {
+    text-align: right;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 10px;
+}

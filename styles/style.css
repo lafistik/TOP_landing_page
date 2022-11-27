@@ -1,5 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap'); */
 
+/* GENERAL STYLES */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,18 +24,7 @@ section {
     margin: 0 auto;
 }
 
-.hero, .footer {
-    background-color: #1F2937;
-}
-
-.hero, .hero .container {
-    height: 80vh;
-}
-
-.hero .container {
-    display: flex;
-    flex-direction: column;
-}
+/* HEADER */
 
 .menu-header {
     display: flex;
@@ -55,6 +46,21 @@ section {
 
 .menu-header a {
     text-decoration: none;
+}
+
+/* HERO SECTION */
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.hero, .hero .container {
+    height: 80vh;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-banner {
@@ -113,5 +119,37 @@ section {
 }
 
 .card-img {
-    width: 150px;
+    width: 200px;
+}
+
+/* FEATURES SECTION */
+
+.features {
+    padding: 60px 0;
+}
+
+.features-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.card {
+    width: 200px;
+    height: auto;
+}
+
+.card-description {
+    color: hsla(215, 28%, 17%, 0.7);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 8px;
 }
